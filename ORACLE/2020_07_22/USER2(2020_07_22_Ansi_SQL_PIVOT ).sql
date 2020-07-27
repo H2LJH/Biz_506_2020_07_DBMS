@@ -81,9 +81,7 @@ DELETE FROM tbl_order WHERE o_seq = 10;
 -- 이럴때 데이터와 상관없는 seq 칼럼을 만들어 pk로 설정하자
 
 
-
-
-
+SELECT * FROM tbl_order;
 
 
 

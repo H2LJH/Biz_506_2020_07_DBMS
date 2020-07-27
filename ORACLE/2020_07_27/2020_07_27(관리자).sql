@@ -1,0 +1,8 @@
+CREATE TABLESPACE grade2TS
+DATAFILE 'C:\bizwork\workspace\Oracle_Data\grade2TS.dbf'
+SIZE 1M AUTOEXTEND ON NEXT 1K;
+
+CREATE USER grade1 IDENTIFIED BY grade1 DEFAULT TABLESPACE grade2TS;
+
+GRANT DBA TO grade1;
+
